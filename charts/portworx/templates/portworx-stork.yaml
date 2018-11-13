@@ -174,12 +174,10 @@ spec:
         name: stork
       hostPID: false
       {{- if (.Values.deployOnMaster) and (eq .Values.deployOnMaster true)}}
-      placement:
-        all:
-          tolerations:
-            - key: node-role.kubernetes.io/master
-              operator: Equal
-              effect: NoSchedule
+      tolerations:
+        - key: node-role.kubernetes.io/master
+          operator: Equal
+          effect: NoSchedule
       {{- end }}
       affinity:
         podAntiAffinity:
