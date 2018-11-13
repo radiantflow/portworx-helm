@@ -1,7 +1,19 @@
 apiVersion: v1
 entries:
   portworx:
-  - created: 2018-11-12T19:49:48.533401007Z
+  - created: 2018-11-12T20:04:56.468118355Z
+    description: A Helm chart for installing Portworx on Kubernetes.
+    digest: 614c80e93b6e16d8ef1572448455b8dd9cdecaf9f084acf9d71bb132d5b2a351
+    home: https://portworx.com/
+    icon: https://raw.githubusercontent.com/portworx/helm/master/doc/media/px-logo.png
+    name: portworx
+    sources:
+    - https://github.com/portworx/helm
+    tillerVersion: '>=2.9.0'
+    urls:
+    - portworx-1.0.1.tgz
+    version: 1.0.1
+  - created: 2018-11-12T20:04:56.464304521Z
     description: A Helm chart for installing Portworx on Kubernetes.
     digest: 0984deb7843a15297179a590b8e0fc3bc93483e058f55223f8f2bbd64efb4192
     home: https://portworx.com/
@@ -13,4 +25,4 @@ entries:
     urls:
     - portworx-1.0.0.tgz
     version: 1.0.0
-generated: 2018-11-12T19:49:48.52873409Z
+generated: 2018-11-12T20:04:56.458122954Z
